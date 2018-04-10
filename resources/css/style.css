@@ -34,3 +34,17 @@ nav a {
   text-decoration: underline;
   margin-right: 10px;
 }
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured {
+  width: 1000px;
+}
