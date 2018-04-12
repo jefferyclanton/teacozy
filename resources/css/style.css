@@ -37,14 +37,55 @@ nav a {
 
 .mission {
   background-image: url(../images/img-mission-background.jpg);
+  background-position: center;
   display: flex;
   flex-direction: column;
   height: 700px;
   width: 1200px;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
-.featured {
-  width: 1000px;
+.mission-section {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.mission h4 {
+  margin-top: 25px;
+}
+
+.title {
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.title h2 {
+  margin-bottom: 25px;
+}
+
+.featured-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-images img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.locations {
+  flex-direction: row;
+  background-image: url(../images/img-locations-background.jpg);
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
 }
