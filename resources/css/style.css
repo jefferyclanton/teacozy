@@ -66,16 +66,29 @@ nav a {
   margin-bottom: 25px;
 }
 
-.featured-images {
+.featured {
   display: flex;
+  flex-direction: row;
+  flex-basis: 700px;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
+}
+
+.featured-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  flex-basis: 1200px;
 }
 
 .featured-images img {
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 address {
@@ -89,11 +102,6 @@ address {
   margin: auto;
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
-}
-
 .downtown, .bayside, .oakdale {
   width: 300px;
   height: 150px;
@@ -101,6 +109,14 @@ address {
   text-align: center;
 }
 
+.contact {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 footer p {
   text-align: left;
+  margin-left: 20px;
 }
