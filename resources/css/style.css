@@ -68,33 +68,39 @@ nav a {
 
 .featured-images {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .featured-images img {
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
-  flex-wrap: wrap;
 }
 
 address {
   display: flex;
-  flex-direction: row;
   background-image: url(../images/img-locations-background.jpg);
   background-position: center;
   height: 500px;
   width: 1200px;
   align-items: center;
   justify-content: space-around;
+  margin: auto;
 }
 
- address div {
-  justify-content: space-around;
-  height: 100px;
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.downtown, .bayside, .oakdale {
   width: 300px;
-  height: 300px;
+  height: 150px;
   background-color: black;
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
 }
