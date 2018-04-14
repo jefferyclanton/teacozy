@@ -96,9 +96,20 @@ nav a {
   margin-bottom: 20px;
 }
 
+.locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+#location-title {
+  position: relative;
+  top: 40px;
+}
+
 address {
   display: flex;
-  background-image: url(../images/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   align-items: center;
