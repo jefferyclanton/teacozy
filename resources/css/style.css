@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +13,15 @@ header {
   position: fixed;
   width: 100%;
   align-items: center;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
 }
 
 .logo img {
@@ -117,7 +117,7 @@ address {
   margin: auto;
 }
 
-.downtown, .bayside, .oakdale {
+.areas {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
