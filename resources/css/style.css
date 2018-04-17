@@ -134,7 +134,7 @@ address {
   flex-direction: column;
 }
 
-footer p {
-  text-align: left;
+p:nth-child(2) {
+  float: left;
   margin-left: 20px;
 }
